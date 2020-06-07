@@ -1,0 +1,13 @@
+				BookMark Managent system:
+
+Steps to install and run Bookmark api :
+1. Download-Zip or pull Bookmark_system file from the git-url mentioned in the mail.
+2. change directory to where manage.py present.
+3. In the editor open terminal and run command-line utility- python manage.py runserver migrate
+4. Again run command-line utility- python manage.py migrate
+5. Next step run- python manage.py createsuperuser            #Authorized user can only view the Api
+6. Finally testing of api can be done by running - python manage.py runserver
+7. Coreapi API docs will appear if you click on  http://127.0.0.1:8000/ ,it will lead to Create and browse Customer's
+   with filtering options.
+
+###Note:only authorized user can view the api because permissions are given in the backened.###
